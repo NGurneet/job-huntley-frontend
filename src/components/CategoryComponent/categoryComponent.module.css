@@ -1,0 +1,38 @@
+.category {
+    width: 300px; /* Increase width */
+    height: 180px; /* Decrease height */
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    border-radius: 8px;
+    padding: 12px; /* Adjust padding to reduce empty space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Keep top alignment */
+    align-items: flex-start; /* Left-align everything */
+    border: 1px solid #ddd; /* Border around the card */
+  }
+  
+  .logo {
+    width: 40px; /* Decrease logo size */
+    height: 40px; /* Decrease logo size */
+    object-fit: contain;
+    margin-bottom: 12px; /* Adjust margin to reduce empty space */
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    color: black;
+  }
+  
+  .jobsCount {
+    font-size: 0.9rem;
+    color: #757575;
+    text-align: left;
+    width: 100%;
+    margin-top: 8px; /* Reduced margin to adjust space between title and jobs count */
+  }
+  

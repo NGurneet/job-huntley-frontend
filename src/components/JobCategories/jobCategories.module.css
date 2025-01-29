@@ -1,0 +1,22 @@
+.jobCategories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 20px; /* Gap between the cards */
+    padding: 20px;
+    max-width: 1200px; /* Max width for the container */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  @media (max-width: 1024px) {
+    .jobCategories {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for medium-sized screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .jobCategories {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile-sized screens */
+    }
+  }
+  
+  

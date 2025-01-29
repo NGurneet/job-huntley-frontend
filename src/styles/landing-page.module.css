@@ -1,0 +1,44 @@
+.landingPage {
+    background-color: #202430; /* Setting the background color to #202430 */
+    color: #fff; /* White text to ensure readability */
+    min-height: 100vh; /* Make sure the page stretches to cover the full height */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #ddd; /* Lighter color for the description */
+  }
+  
+  .jobCategoriesSection, 
+  .featuredJobsSection {
+    width: 100%; /* Make the sections take the full width */
+    max-width: 1200px; /* Optional: Max width for better readability */
+    margin: 0 auto; /* Center align the sections */
+  }
+  
+  .jobCategoriesSection h2, 
+  .featuredJobsSection h2 {
+    font-size: 1.8rem;
+    color: #ffcc00; /* Accent color for headings */
+    margin-bottom: 20px;
+  }
+  
+  .jobCategories,
+  .featuredJobsSection {
+    margin-bottom: 40px; /* Add space between sections */
+  }
+  
