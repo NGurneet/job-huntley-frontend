@@ -9,6 +9,14 @@ import {
   Chip,
   styled
 } from '@mui/material';
+import discordlogo from "../../assets/discordlogo.svg"
+import mazelogo from "../../assets/mazelogo.svg"
+import udacitylogo from "../../assets/udacitylogo.png"
+import webflowlogo from "../../assets/webflowlogo.png"
+import foundationlogo from "../../assets/foundationlogo.svg"
+import nomadlogo from "../../assets/nomadlogo.png"
+
+
 
 // Interfaces
 interface CompanyTag {
@@ -73,7 +81,7 @@ const TagChip = styled(Chip)({
 const companiesData: Company[] = [
   {
     id: '1',
-    logo: '/api/placeholder/64/64',
+    logo: nomadlogo,
     name: 'Nomad',
     description: 'Nomad is located in Paris, France. Nomad has generates $728,000 in sales (USD).',
     jobCount: 3,
@@ -81,7 +89,7 @@ const companiesData: Company[] = [
   },
   {
     id: '2',
-    logo: '/api/placeholder/64/64',
+    logo: discordlogo,
     name: 'Discord',
     description: 'We\'d love to work with someone like you. We care about creating a delightful experience.',
     jobCount: 3,
@@ -89,7 +97,7 @@ const companiesData: Company[] = [
   },
   {
     id: '3',
-    logo: '/api/placeholder/64/64',
+    logo: mazelogo,
     name: 'Maze',
     description: 'We\'re a passionate bunch working from all over the world to build the future of rapid testing together.',
     jobCount: 3,
@@ -97,7 +105,7 @@ const companiesData: Company[] = [
   },
   {
     id: '4',
-    logo: '/api/placeholder/64/64',
+    logo: udacitylogo,
     name: 'Udacity',
     description: 'Udacity is a new type of online university that teaches the actual programming skills.',
     jobCount: 3,
@@ -105,7 +113,7 @@ const companiesData: Company[] = [
   },
   {
     id: '5',
-    logo: '/api/placeholder/64/64',
+    logo: webflowlogo,
     name: 'Webflow',
     description: 'Webflow is the first design and hosting platform built from the ground up for the mobile age.',
     jobCount: 3,
@@ -116,7 +124,7 @@ const companiesData: Company[] = [
   },
   {
     id: '6',
-    logo: '/api/placeholder/64/64',
+    logo: foundationlogo,
     name: 'Foundation',
     description: 'Foundation helps creators mint and auction their digital artworks as NFTs on the Ethereum blockchain.',
     jobCount: 3,

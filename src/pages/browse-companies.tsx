@@ -5,6 +5,8 @@ import { Typography, Box, Container } from '@mui/material';
 import { Recommend } from '@mui/icons-material';
 import RecommendedCompanies from '../components/RecommendedCompainesComponent';
 import JobPostingCTA from '../components/JobPostingCta';
+import DesignCompanyList from '../components/DesignCompanyList';
+import Footer from '../components/Footer';
 
 const BrowseCompanies: React.FC = () => {
   return (
@@ -17,6 +19,12 @@ const BrowseCompanies: React.FC = () => {
       <RecommendedCompanies />
       <section>
         <JobPostingCTA />
+      </section>
+      <section>
+        <DesignCompanyList/>
+      </section>
+      <section>
+        <Footer />
       </section>
     </Box>
     

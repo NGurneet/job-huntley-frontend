@@ -11,6 +11,7 @@ import { AppBar, Box, Button, styled, Toolbar, Typography } from '@mui/material'
 import FeaturedJobs from '../components/FeaturedJobs';
 import JobPostingCTA from '../components/JobPostingCta';
 import Footer from '../components/Footer';
+import AppNavbar from '../components/AppNavbar';
 
 const LandingPage: React.FC = () => {
   const LogoTypography = styled(Typography)({
@@ -25,43 +26,7 @@ const LandingPage: React.FC = () => {
     <div className={styles.landingPage}>
       <header>
         {/* <Navbar /> */}
-        <AppBar position="static" color="transparent" elevation={0}>
-        <Toolbar>
-          <LogoTypography sx={{ flexGrow: 1 }}>
-            <span style={{ 
-              backgroundColor: '#5E5CFF', 
-              borderRadius: '50%', 
-              width: '32px', 
-              height: '32px',
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: 'white'
-            }}>
-              J
-            </span>
-            JobHuntly
-          </LogoTypography>
-          
-          <Box sx={{ display: 'flex', gap: 2 }}>
-            <Button color="inherit">Find Jobs</Button>
-            <Button color="inherit">Browse Companies</Button>
-          </Box>
-          
-          <Box sx={{ display: 'flex', gap: 2, ml: 2 }}>
-            <Button color="inherit">Login</Button>
-            <Button
-              variant="contained"
-              sx={{
-                bgcolor: '#5E5CFF',
-                '&:hover': { bgcolor: '#4A48CC' },
-              }}
-            >
-              Sign Up
-            </Button>
-          </Box>
-        </Toolbar>
-      </AppBar>
+        <AppNavbar/>
       </header>
 
       <section>
